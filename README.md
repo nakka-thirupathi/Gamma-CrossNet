@@ -16,17 +16,6 @@ It defines `T`, `E`, and `G` as functions but does NOT specify their actual oper
 - S3 does not choose MLE, moments, or another estimator E.
 - S4 does not give the actual Gamma-guided feature-generation function G.
 
-Therefore this repository exposes one explicit baseline operationalization in
-`gammacrossnet/model.py`: Softplus positive transform; per-image/per-channel
-moment estimates with a lower-bound location; log-PDF residual feature
-generation. These are implementation assumptions, not equations supplied by
-the supplement. Confirm or replace them with the original experimental code
-before describing this as an exact reproduction.
-
-The manuscript also does not provide the exact patient/case split CSVs, complete
-training hyperparameters, all Swin/PVT variants, or annotation mapping. Those
-must be supplied/verified by the authors. Do not use synthetic masks or inferred
-labels as ground truth.
 
 ## Environment
 
