@@ -12,10 +12,6 @@ The uploaded Supplementary Section S1 provides the three-parameter Gamma PDF:
 `p(x|alpha,beta,mu) = (x-mu)^(alpha-1) exp(-(x-mu)/beta) / (Gamma(alpha) beta^alpha), x > mu`
 
 It defines `T`, `E`, and `G` as functions but does NOT specify their actual operations:
-- S2 does not state the exact positive feature transform T.
-- S3 does not choose MLE, moments, or another estimator E.
-- S4 does not give the actual Gamma-guided feature-generation function G.
-
 
 ## Environment
 
